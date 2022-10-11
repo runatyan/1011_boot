@@ -10,20 +10,74 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="card">
-            <img src="http://placekitten.com/800/400" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                    the
-                    card's
-                    content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    <header>
+        <h1 class="display-1 bg-dark p-3 mb-6 text-white text-center">BootStrapの練習</h1>
+    </header>
+    <main>
+        <div class="container">
+            <nav class="mt-5">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">blog</li>
+                </ol>
+            </nav>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="http://placekitten.com/800/400" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">記事のタイトル</h3>
+                            <p class="card-text">記事の本文です。</p>
+                            <a href="#" class="btn btn-info">READ MORE</a>
+                        </div>
+                        <div class="card-footer text-end">
+                            2022.10.11
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="http://placekitten.com/800/400" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">記事のタイトル</h3>
+                            <p class="card-text">記事の本文です。</p>
+                            <a href="#" class="btn btn-info">READ MORE</a>
+                        </div>
+                        <div class="card-footer text-end">
+                            2022.10.11
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="http://placekitten.com/800/400" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">記事のタイトル</h3>
+                            <p class="card-text">記事の本文です。</p>
+                            <a href="#" class="btn btn-info">READ MORE</a>
+                        </div>
+                        <div class="card-footer text-end">
+                            2022.10.11
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="mt-4">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </div>
+    </main>
 
+    <footer>
+        <div class="container text-center border-top border-2 mt-5 py-5">
+            <p><small>© trident.</small></p>
+        </div>
+    </footer>
     <!-- JSを読み込む -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
 </body>
